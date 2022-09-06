@@ -64,7 +64,7 @@ class ExportSchedulePlugin
     }
     function es_meta_box()
     {
-        //this will add the metabox for the member post type
+        //this will add the metabox for the export-schedule post type
         $screens = array('export-schedule');
 
         foreach ($screens as $screen) {
